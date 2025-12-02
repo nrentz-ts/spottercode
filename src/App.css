@@ -1,12 +1,17 @@
 .app {
   min-height: 100vh;
   background-color: #f7f7f7;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
 }
 
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .dashboard-header {
@@ -105,6 +110,12 @@
 .empty-state p {
   color: #717171;
   margin-bottom: 1.5rem;
+}
+
+/* Iframe section styling */
+.iframe-section {
+  width: 100%;
+  margin: 2rem 0;
 }
 
 @media (max-width: 768px) {
