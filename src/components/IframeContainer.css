@@ -1,0 +1,54 @@
+.iframe-wrapper {
+  width: 100%;
+  margin: 2rem 0;
+  background: white;
+  border-radius: 12px;
+  overflow: visible;
+  position: relative;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+  min-height: 400px;
+}
+
+.embedded-iframe {
+  width: 100%;
+  border: none;
+  display: block;
+  min-height: 400px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  /* Ensure iframe can scroll internally */
+  overflow-y: auto;
+  overflow-x: auto;
+  /* Prevent horizontal overflow */
+  max-width: 100%;
+}
+
+/* Responsive iframe sizing */
+@media (max-width: 768px) {
+  .iframe-wrapper {
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+
+  .iframe-container {
+    min-height: 300px;
+  }
+
+  .embedded-iframe {
+    min-height: 300px;
+  }
+}
+
+/* Ensure iframes don't cause horizontal scroll */
+.iframe-wrapper,
+.iframe-container,
+.embedded-iframe {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+

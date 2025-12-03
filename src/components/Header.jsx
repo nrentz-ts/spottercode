@@ -12,7 +12,6 @@ function Header() {
         <nav className="nav">
           <a href="#" className="nav-link active">Properties</a>
           <a href="#" className="nav-link">Bookings</a>
-          <a href="#" className="nav-link">Analytics</a>
           <a href="#" className="nav-link">Settings</a>
         </nav>
         <div className="user-menu">

@@ -29,7 +29,6 @@
   max-width: 600px;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   animation: slideUp 0.3s ease;
 }
 
@@ -107,7 +106,6 @@
 .form-group input:focus {
   outline: none;
   border-color: #ff385c;
-  box-shadow: 0 0 0 3px rgba(255, 56, 92, 0.1);
 }
 
 .form-row {
