@@ -1,43 +1,29 @@
-# Airbnb Property Manager
+# SpotStay
 
-A simple homepage for Airbnb owners to manage their properties. Built with React and Vite.
+A simple homepage for property owners to manage their properties. Built with React and Vite.
 
-## Features
+## Installation
 
-- 📋 View all your properties in a beautiful grid layout
-- ➕ Add new properties with a simple form
-- ✏️ Edit existing properties
-- 🗑️ Delete properties
-- 📊 Dashboard statistics (total properties, active listings, estimated monthly revenue)
-- 📱 Responsive design for mobile and desktop
+Clone the repository:
 
-## Getting Started
+```bash
+git clone https://github.com/nrentz-ts/spottercode.git
+cd spottercode
+```
 
-### Install Dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Run Development Server
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
+The development server will start and display the local URL in your terminal (typically `http://localhost:5173`). Open the URL shown in your terminal in your browser.
 
 ## Project Structure
 
