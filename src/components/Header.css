@@ -31,25 +31,29 @@
 
 .nav {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .nav-link {
-  color: #222222;
+  color: #ff385c;
   text-decoration: none;
   font-weight: 500;
-  padding: 0.5rem 0;
-  transition: color 0.2s ease;
-  border-bottom: 2px solid transparent;
+  padding: 0.625rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .nav-link:hover {
-  color: #ff385c;
+  background-color: rgba(255, 56, 92, 0.1);
 }
 
 .nav-link.active {
   color: #ff385c;
-  border-bottom-color: #ff385c;
+  background-color: #FFEBEE;
+  font-weight: 600;
 }
 
 .user-menu {
