@@ -10,7 +10,7 @@ function Header() {
       <div className="header-content">
         <div className="logo">
           <span className="logo-icon">🏠</span>
-          <span className="logo-text">Property Manager</span>
+          <span className="logo-text">SpotStay</span>
         </div>
         <nav className="nav">
           <Link 

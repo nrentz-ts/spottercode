@@ -1,4 +1,4 @@
-# Airbnb Property Manager
+# SpotStay
 
 A simple homepage for Airbnb owners to manage their properties. Built with React and Vite.
 
