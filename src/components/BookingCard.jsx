@@ -56,3 +56,5 @@ function BookingCard({ booking, onEdit, onDelete }) {
 
 export default BookingCard
 
+
+

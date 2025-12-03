@@ -31,6 +31,18 @@ function Header() {
           >
             Settings
           </Link>
+          <Link 
+            to="/analytics" 
+            className={`nav-link ${location.pathname === '/analytics' ? 'active' : ''}`}
+          >
+            Analytics
+          </Link>
+          <Link 
+            to="/spotstay-ai" 
+            className={`nav-link ${location.pathname === '/spotstay-ai' ? 'active' : ''}`}
+          >
+            SpotStay AI
+          </Link>
         </nav>
         <div className="user-menu">
           <div className="user-avatar">JD</div>
